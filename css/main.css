@@ -1,0 +1,22 @@
+html {
+  width: 100%;
+}
+
+/* Bootstrap Overrides */
+.active {
+  color: gold !important;
+}
+
+.bg-dark {
+  background-color: #252525 !important;
+}
+
+.bg-body-dark {
+  background-color: #202020;
+}
+
+.nav-link:hover {
+  color: gold !important;
+}
+
+/*# sourceMappingURL=main.css.map */
