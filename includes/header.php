@@ -9,3 +9,33 @@
           crossorigin="anonymous">
     <title>Home</title>
 </head>
+
+<header class="sticky-top bg-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.php">
+                    <img src="assets/images/logo50px.png" alt="logo" style="height: 40px">
+                    <small class="mx-4">Student</small>
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">En</a>
+                        <a class="nav-link" href="#">Search</a>
+                        <a class="nav-link" href="#">Menu</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
