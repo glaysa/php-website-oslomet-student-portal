@@ -12,7 +12,7 @@
     <title>Home</title>
 </head>
 
-<header class="sticky-top bg-dark border-bottom border-secondary">
+<header class="sticky-top bg-dark">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -21,25 +21,27 @@
                     <small class="mx-4">Student</small>
                 </a>
 
-                <button class="navbar-toggler" type="button"
+                <button class="navbar-toggler" id="btn-toggle" type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup"
                         aria-expanded="false"
                         aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span style="color: gold; font-size: 25px" class="bi bi-list"></span>
+                    <span style="color: gold; font-size: 25px" class="bi bi-x"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <hr class="d-lg-none d-md-block w-100 bg-secondary">
                     <div class="navbar-nav ms-auto">
-                        <a class="me-3 nav-link active" href="#">
-                            <span class="bi-book mx-2"></span>School</a>
-                        <a class="me-3 nav-link" href="#">
-                            <span class="bi-person mx-2"></span>Login</a>
-                        <a class="me-3 nav-link" href="#">
-                            <span class="bi-search mx-2"></span>Search</a>
+                        <a class="me-lg-4 nav-link active" href="#">
+                            <span class="bi-book me-2"></span>School</a>
+                        <a class="me-lg-4 nav-link" href="#">
+                            <span class="bi-person me-2"></span>Login</a>
+                        <a class="me-lg-4 nav-link" href="#">
+                            <span class="bi-search me-2"></span>Search</a>
                         <a class="nav-link" href="#">
-                            <span class="bi-globe mx-2"></span>No</a>
+                            <span class="bi-globe me-2"></span>No</a>
                     </div>
                 </div>
             </div>

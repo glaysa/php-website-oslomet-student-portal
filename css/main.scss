@@ -20,4 +20,27 @@ html {
 
 .nav-link:hover {
   color: gold !important;
+  border-bottom: 1px solid gold !important;
+}
+
+/* Header > nav > button-toggler */
+
+#btn-toggle {
+  border: none !important;
+}
+
+#btn-toggle:focus {
+  box-shadow: none !important;
+}
+
+.bi-x {
+  display: none;
+}
+
+.on .bi-x {
+  display: block;
+}
+
+.on .bi-list {
+  display: none;
 }
