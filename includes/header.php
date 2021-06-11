@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
@@ -18,7 +18,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php">
                     <img src="assets/images/logo50px.png" alt="logo" style="height: 40px">
-                    <small class="mx-4">Student</small>
+                    <small class="mx-4">Student Portal</small>
                 </a>
 
                 <button class="navbar-toggler" id="btn-toggle" type="button"
@@ -35,7 +35,7 @@
                     <hr class="d-lg-none d-md-block w-100 bg-secondary">
                     <div class="navbar-nav ms-auto">
                         <a class="me-lg-4 nav-link active" href="#">
-                            <span class="bi-book me-2"></span>School</a>
+                            <span class="bi-house me-2"></span>Home</a>
                         <a class="me-lg-4 nav-link" href="#">
                             <span class="bi-person me-2"></span>Login</a>
                         <a class="me-lg-4 nav-link" href="#">

@@ -1,10 +1,15 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 html {
-  width: 100%;
+  min-width: 320px;
 }
 
 /* Bootstrap Overrides */
 .active {
   color: gold !important;
+  border-bottom: 1px solid gold !important;
 }
 
 .bg-dark {
@@ -13,6 +18,15 @@ html {
 
 .bg-body-dark {
   background-color: #202020;
+}
+
+.btn-dark:hover {
+  background: whitesmoke;
+  color: black !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
 }
 
 .nav-link:hover {
@@ -39,6 +53,23 @@ html {
 
 .on .bi-list {
   display: none;
+}
+
+/* index > cover section */
+#cover-container {
+  background: gold;
+  min-height: 200px;
+}
+
+#cover-entry {
+  color: black;
+  min-height: 400px;
+  align-items: center;
+  padding: 50px 0;
+}
+
+#cover-img {
+  max-height: 500px;
 }
 
 /*# sourceMappingURL=main.css.map */
