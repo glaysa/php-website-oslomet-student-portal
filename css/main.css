@@ -6,6 +6,21 @@ html {
   min-width: 320px;
 }
 
+/* Custom */
+a.a-link {
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  text-decoration: none;
+  transition: ease 0.3s;
+  padding: 5px 0;
+  border-bottom: 1px solid transparent;
+}
+
+a.a-link:hover {
+  color: gold;
+  border-bottom: 1px solid gold;
+}
+
 /* Bootstrap Overrides */
 .active {
   color: gold !important;
@@ -17,7 +32,11 @@ html {
 }
 
 .bg-body-dark {
-  background-color: #202020;
+  background-color: #202020 !important;
+}
+
+.bg-gold {
+  background: gold !important;
 }
 
 .btn-dark:hover {
@@ -70,6 +89,15 @@ html {
 
 #cover-img {
   max-height: 500px;
+}
+
+/* index > footer section */
+footer {
+  min-height: 50vh;
+}
+
+#footer-logo {
+  max-width: 300px !important;
 }
 
 /*# sourceMappingURL=main.css.map */
