@@ -1,4 +1,4 @@
-<footer class="bg-dark py-5 text-white">
+<footer class="bg-dark-secondary py-5 text-white">
     <section class="container gap-5 d-flex flex-lg-row flex-column align-items-md-stretch justify-content-between">
         <img src="assets/images/logo50px.png" alt="oslomet logo" id="footer-logo" class="img-fluid mx-lg-0 mx-auto">
         <div class="order-lg-1 order-3">
@@ -30,6 +30,7 @@
     <section class="container text-center py-5 text-white-50">
         <hr class="w-100">
         <p><a href="#" class="a-link d-inline">Privacy & Policy</a></p>
+        <p><a href="#" class="a-link d-inline">Terms of Use</a></p>
         <p><a href="#" class="a-link d-inline">Cookies</a></p>
         <p><a href="#" class="a-link d-inline">Credits</a></p>
         <p>Developer &copy; <a href="https://github.com/Glaysa" class="a-link d-inline">Glaysa Fernandez </a></p>

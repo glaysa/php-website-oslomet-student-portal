@@ -21,6 +21,18 @@ a.a-link:hover {
   border-bottom: 1px solid gold;
 }
 
+a.a-link-block div {
+  border: 1px solid transparent;
+  height: 100%;
+}
+
+a.a-link-block:hover div {
+  background-color: #353535 !important;
+  color: gold !important;
+  border: 1px solid gold !important;
+  transition: ease 0.3s;
+}
+
 /* Bootstrap Overrides */
 .active {
   color: gold !important;
@@ -29,6 +41,10 @@ a.a-link:hover {
 
 .bg-dark {
   background-color: #252525 !important;
+}
+
+.bg-dark-secondary {
+  background-color: #353535 !important;
 }
 
 .bg-body-dark {
@@ -89,6 +105,21 @@ a.a-link:hover {
 
 #cover-img {
   max-height: 500px;
+}
+
+/* index > main */
+#main-entry {
+  min-height: 75vh;
+  color: white;
+  padding: 50px 0;
+}
+#main-entry details {
+  color: gold;
+  padding: 20px;
+  margin: 10px;
+}
+#main-entry details content {
+  color: white;
 }
 
 /* index > footer section */
