@@ -141,6 +141,14 @@ input[type=password].form-control {
 .main-entry details content {
   color: white;
 }
+.main-entry .new-img-wrapper {
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+}
+.main-entry .new-img-wrapper #img-placeholder {
+  max-height: 200px;
+}
 
 /* index > footer section */
 footer {

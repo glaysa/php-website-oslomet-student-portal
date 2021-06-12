@@ -15,7 +15,7 @@
     </section>
 </div>
 <main class="container-fluid">
-    <section class="container main-entry">
+    <section class="container main-entry my-5">
 
         <div class="row g-0 justify-content-center">
             <div class="p-2 col-lg-2 col-md-4 col-6">
@@ -64,7 +64,8 @@
 
         <div class="row g-0">
             <div class="col">
-                <p class="display-6 text-center py-5">For Oslomet Students</p>
+                <p class="display-6 text-center pt-5">For Oslomet Students</p>
+                <hr class="w-100 bg-gold mb-5">
                 <details class="bg-dark-secondary">
                     <summary class="lead">Student Life</summary>
                     <hr class="w-100">
@@ -110,6 +111,68 @@
             </div>
         </div>
 
+        <div class="row g-0">
+            <p class="display-6 text-center pt-5">News</p>
+            <hr class="w-100 bg-gold mb-5">
+            <div class="col-12 pb-5">
+                <div class="text-white d-flex flex-lg-row flex-column">
+                    <div class="new-img-wrapper m-lg-0 mx-auto my-4">
+                        <img src="assets/images/img-placeholder.png" alt="placeholder" id="img-placeholder" class="img-fluid">
+                    </div>
+                    <div class="px-3">
+                        <p class="display-6"><a href="#" class="a-link text-gold">News 1</a></p>
+                        <content>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
+                            ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
+                            Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
+                            id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
+                            sunt suscipit, voluptas.
+                        </content>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-5">
+                <div class="text-white d-flex flex-lg-row flex-column">
+                    <div class="new-img-wrapper m-lg-0 mx-auto my-4">
+                        <img src="assets/images/img-placeholder.png" alt="placeholder" id="img-placeholder" class="img-fluid">
+                    </div>
+                    <div class="px-3">
+                        <p class="display-6"><a href="#" class="a-link text-gold">News 2</a></p>
+                        <content>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
+                            ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
+                            Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
+                            id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
+                            sunt suscipit, voluptas.
+                        </content>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-5">
+                <div class="text-white d-flex flex-lg-row flex-column">
+                    <div class="new-img-wrapper m-lg-0 mx-auto my-4">
+                        <img src="assets/images/img-placeholder.png" alt="placeholder" id="img-placeholder" class="img-fluid">
+                    </div>
+                    <div class="px-3">
+                        <p class="display-6"><a href="#" class="a-link text-gold">News 3</a></p>
+                        <content>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
+                            ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
+                            Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
+                            id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
+                            sunt suscipit, voluptas.
+                        </content>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-lg-3 g-0">
+            <div class="col"><hr class="w-100 bg-gold"></div>
+            <div class="col">
+                <a href="#" class="a-link fw-bolder text-gold mx-auto">See all news</a>
+            </div>
+            <div class="col"><hr class="w-100 bg-gold"></div>
+        </div>
     </section>
 </main>
 <?php include 'includes/footer.php' ?>
