@@ -2,7 +2,7 @@
 <?php include 'includes/header.php' ?>
 <body class="bg-body-dark">
 <main class="container-fluid">
-    <section id="main-entry" class="container">
+    <section class="container main-entry">
         <div class="row g-0 p-3 my-5">
             <div class="col">
                 <p class="display-6 text-gold">Credits</p>

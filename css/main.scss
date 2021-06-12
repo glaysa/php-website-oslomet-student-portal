@@ -1,3 +1,7 @@
+
+
+/* Global */
+
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -5,6 +9,17 @@
 html {
   min-width: 320px;
 }
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+
+
+
+
+
+
 
 /* Custom */
 
@@ -35,21 +50,6 @@ a.a-link-block:hover div {
   transition: ease .3s;
 }
 
-.text-gold {
-  color: gold !important;
-}
-
-/* Bootstrap Overrides */
-
-.active {
-  color: gold !important;
-  border-bottom: 1px solid gold !important;
-}
-
-.bg-dark {
-  background-color: #252525 !important;
-}
-
 .bg-dark-secondary {
   background-color: #353535 !important;
 }
@@ -62,7 +62,30 @@ a.a-link-block:hover div {
   background: gold !important;
 }
 
-.btn-dark:hover {
+.text-gold {
+  color: gold !important;
+}
+
+
+
+
+
+
+
+
+/* Bootstrap Overrides */
+
+.active {
+  color: gold !important;
+  border-bottom: 1px solid gold !important;
+}
+
+.bg-dark {
+  background-color: #252525 !important;
+}
+
+.btn-dark:hover,
+.btn-warning:hover {
   background: whitesmoke;
   color: black !important;
 }
@@ -71,10 +94,25 @@ a.a-link-block:hover div {
   padding: 0 !important;
 }
 
+input[type="text"].form-control,
+input[type="password"].form-control {
+  background-color: #353535 !important;
+  color: white !important;
+  border: gold !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 .nav-link:hover {
   color: gold !important;
   border-bottom: 1px solid gold !important;
 }
+
+
+
+
+
+
 
 /* Header > nav > button-toggler */
 
@@ -116,9 +154,9 @@ a.a-link-block:hover div {
   max-height: 500px;
 }
 
-/* index > main */
+/* main */
 
-#main-entry {
+.main-entry {
   min-height: 75vh;
   color: white;
   padding: 50px 0;

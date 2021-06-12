@@ -15,7 +15,7 @@
     </section>
 </div>
 <main class="container-fluid">
-    <section id="main-entry" class="container">
+    <section class="container main-entry">
 
         <div class="row g-0 justify-content-center">
             <div class="p-2 col-lg-2 col-md-4 col-6">

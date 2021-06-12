@@ -36,7 +36,7 @@
                     <div class="navbar-nav ms-auto">
                         <a class="me-lg-4 nav-link active" href="#">
                             <span class="bi-house me-2"></span>Home</a>
-                        <a class="me-lg-4 nav-link" href="#">
+                        <a class="me-lg-4 nav-link" href="login.php">
                             <span class="bi-person me-2"></span>Login</a>
                         <a class="me-lg-4 nav-link" href="#">
                             <span class="bi-search me-2"></span>Search</a>

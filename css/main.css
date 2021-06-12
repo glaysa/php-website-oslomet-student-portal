@@ -1,9 +1,14 @@
+/* Global */
 *, ::before, ::after {
   box-sizing: border-box;
 }
 
 html {
   min-width: 320px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 /* Custom */
@@ -34,6 +39,18 @@ a.a-link-block:hover div {
   transition: ease 0.3s;
 }
 
+.bg-dark-secondary {
+  background-color: #353535 !important;
+}
+
+.bg-body-dark {
+  background-color: #202020 !important;
+}
+
+.bg-gold {
+  background: gold !important;
+}
+
 .text-gold {
   color: gold !important;
 }
@@ -48,25 +65,23 @@ a.a-link-block:hover div {
   background-color: #252525 !important;
 }
 
-.bg-dark-secondary {
-  background-color: #353535 !important;
-}
-
-.bg-body-dark {
-  background-color: #202020 !important;
-}
-
-.bg-gold {
-  background: gold !important;
-}
-
-.btn-dark:hover {
+.btn-dark:hover,
+.btn-warning:hover {
   background: whitesmoke;
   color: black !important;
 }
 
 .container-fluid {
   padding: 0 !important;
+}
+
+input[type=text].form-control,
+input[type=password].form-control {
+  background-color: #353535 !important;
+  color: white !important;
+  border: gold !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 .nav-link:hover {
@@ -112,18 +127,18 @@ a.a-link-block:hover div {
   max-height: 500px;
 }
 
-/* index > main */
-#main-entry {
+/* main */
+.main-entry {
   min-height: 75vh;
   color: white;
   padding: 50px 0;
 }
-#main-entry details {
+.main-entry details {
   color: gold;
   padding: 20px;
   margin: 10px;
 }
-#main-entry details content {
+.main-entry details content {
   color: white;
 }
 
