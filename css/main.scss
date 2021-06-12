@@ -15,6 +15,7 @@ a.a-link {
   transition: ease .3s;
   padding: 5px 0;
   border-bottom: 1px solid transparent;
+  width: fit-content;
 }
 
 a.a-link:hover {
@@ -32,6 +33,10 @@ a.a-link-block:hover div {
   color: gold !important;
   border: 1px solid gold !important;
   transition: ease .3s;
+}
+
+.text-gold {
+  color: gold !important;
 }
 
 /* Bootstrap Overrides */
