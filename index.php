@@ -15,7 +15,7 @@
     </section>
 </div>
 <main class="container-fluid">
-    <section class="container main-entry my-5">
+    <section class="container main-entry my-5" id="search">
         <div class="row g-0 justify-content-center">
             <div class="p-2 col-lg-2 col-md-4 col-6">
                 <a href="#" class="a-link-block text-decoration-none">
