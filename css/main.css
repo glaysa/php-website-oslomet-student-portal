@@ -22,9 +22,23 @@ a.a-link {
   width: fit-content;
 }
 
+a.a-link-dark {
+  color: black;
+  display: block;
+  text-decoration: none;
+  transition: ease 0.3s;
+  padding: 5px 0;
+  border-bottom: 1px solid transparent;
+  width: fit-content;
+}
+
 a.a-link:hover {
   color: gold;
   border-bottom: 1px solid gold;
+}
+
+a.a-link-dark:hover {
+  border-bottom: 1px solid black;
 }
 
 a.a-link-block div {
@@ -123,7 +137,7 @@ input[type=password].form-control {
   padding: 50px 0;
 }
 
-#cover-img {
+.cover-img {
   max-height: 500px;
 }
 
@@ -148,6 +162,18 @@ input[type=password].form-control {
 }
 .main-entry .new-img-wrapper #img-placeholder {
   max-height: 200px;
+}
+
+.date-block {
+  min-width: 100px;
+  min-height: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #353535;
+  color: gold;
 }
 
 /* index > footer section */

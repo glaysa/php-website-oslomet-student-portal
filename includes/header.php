@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <hr class="d-lg-none d-md-block w-100 bg-secondary">
                     <div class="navbar-nav ms-auto">
-                        <a class="me-lg-4 nav-link active" href="#">
+                        <a class="me-lg-4 nav-link active" href="index.php">
                             <span class="bi-house me-2"></span>Home</a>
                         <a class="me-lg-4 nav-link" href="login.php">
                             <span class="bi-person me-2"></span>Login</a>

@@ -13,8 +13,9 @@
                 <hr class="w-50">
 
                 <p class="lead">Images, Logos & Vectors</p>
-                <a class="a-link" href="https://www.freepik.com/vectors/school">School vector created by pch.vector - www.freepik.com</a>
                 <a class="a-link" href="https://oslomet.no/">Oslomet Logo</a>
+                <a class="a-link" href="https://www.freepik.com/vectors/school">School vector created by pch.vector - www.freepik.com</a>
+                <a class="a-link" href="https://www.freepik.com/vectors/calendar">Calendar vector created by pch.vector - www.freepik.com</a>
                 <hr class="w-50">
 
                 <p class="lead">CSS Framework</p>

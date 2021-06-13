@@ -5,7 +5,7 @@
     <section class="container main-entry">
         <div class="row g-0 my-5 justify-content-center">
             <div class="col-lg-6 px-4">
-                <p class="display-6 text-gold">Login</p>
+                <h1 class="fw-lighter text-gold text-center">Login</h1>
                 <hr class="w-100 bg-gold">
                 <form action="" class="form">
                     <input type="text" name="username" placeholder="Username" class="mb-3 form-control">
