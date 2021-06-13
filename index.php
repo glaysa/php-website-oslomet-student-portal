@@ -68,7 +68,29 @@
                     <summary class="lead">Student Life</summary>
                     <hr class="w-100">
                     <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, quia!</p>
+                        <div class="d-flex flex-lg-row flex-column align-items-stretch flex-wrap">
+                            <div class="category-wrapper px-3 py-4">
+                                <p class="lead">Category</p>
+                                <hr class="w-100">
+                                <a href="#" class="a-link">Link 1</a>
+                                <a href="#" class="a-link">Link 2</a>
+                                <a href="#" class="a-link">Link 3</a>
+                            </div>
+                            <div class="category-wrapper px-3 py-4">
+                                <p class="lead">Category</p>
+                                <hr class="w-100">
+                                <a href="#" class="a-link">Link 1</a>
+                                <a href="#" class="a-link">Link 2</a>
+                                <a href="#" class="a-link">Link 3</a>
+                            </div>
+                            <div class="category-wrapper px-3 py-4">
+                                <p class="lead">Category</p>
+                                <hr class="w-100">
+                                <a href="#" class="a-link">Link 1</a>
+                                <a href="#" class="a-link">Link 2</a>
+                                <a href="#" class="a-link">Link 3</a>
+                            </div>
+                        </div>
                     </content>
                 </details>
                 <details class="bg-dark-secondary">
@@ -115,7 +137,7 @@
             <hr class="w-100 bg-gold mb-5">
             <div class="col-12 pb-5">
                 <div class="text-white d-flex flex-lg-row flex-column">
-                    <div class="new-img-wrapper m-lg-0 mx-auto my-4">
+                    <div class="news-img-wrapper m-lg-0 mx-auto my-4">
                         <img src="assets/images/img-placeholder.png" alt="placeholder" id="img-placeholder" class="img-fluid">
                     </div>
                     <div class="px-3">

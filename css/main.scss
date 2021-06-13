@@ -99,9 +99,14 @@ a.a-link-block:hover div {
   background-color: #252525 !important;
 }
 
+.btn-warning {
+  background-color: gold !important;
+}
+
 .btn-dark:hover,
 .btn-warning:hover {
-  background: whitesmoke;
+  background: whitesmoke !important;
+  border: 1px solid black;
   color: black !important;
 }
 
@@ -186,7 +191,16 @@ input[type="password"].form-control {
     }
   }
 
-  .new-img-wrapper {
+  .category-wrapper {
+    min-width: 33%;
+    max-width: 33%;
+  }
+
+  .category-wrapper.removeMaxW {
+    max-width: none;
+  }
+
+  .news-img-wrapper {
     min-width: 280px;
     display: flex;
     align-items: center;
@@ -196,6 +210,8 @@ input[type="password"].form-control {
     }
   }
 }
+
+/* index > activities section */
 
 .date-block {
   min-width: 100px;

@@ -79,9 +79,14 @@ a.a-link-block:hover div {
   background-color: #252525 !important;
 }
 
+.btn-warning {
+  background-color: gold !important;
+}
+
 .btn-dark:hover,
 .btn-warning:hover {
-  background: whitesmoke;
+  background: whitesmoke !important;
+  border: 1px solid black;
   color: black !important;
 }
 
@@ -155,15 +160,23 @@ input[type=password].form-control {
 .main-entry details content {
   color: white;
 }
-.main-entry .new-img-wrapper {
+.main-entry .category-wrapper {
+  min-width: 33%;
+  max-width: 33%;
+}
+.main-entry .category-wrapper.removeMaxW {
+  max-width: none;
+}
+.main-entry .news-img-wrapper {
   min-width: 280px;
   display: flex;
   align-items: center;
 }
-.main-entry .new-img-wrapper #img-placeholder {
+.main-entry .news-img-wrapper #img-placeholder {
   max-height: 200px;
 }
 
+/* index > activities section */
 .date-block {
   min-width: 100px;
   min-height: 100px;
