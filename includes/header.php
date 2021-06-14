@@ -10,7 +10,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Home</title>
+    <title id="title">Home</title>
 </head>
 
 <header class="sticky-top bg-dark">
@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <hr class="d-lg-none d-md-block w-100 bg-secondary">
                     <div class="navbar-nav ms-auto">
-                        <a class="me-lg-4 nav-link active" href="index.php">
+                        <a class="me-lg-4 nav-link" href="index.php">
                             <span class="bi-house me-2"></span>Home</a>
                         <a class="me-lg-4 nav-link" href="login.php">
                             <span class="bi-person me-2"></span>Login</a>
