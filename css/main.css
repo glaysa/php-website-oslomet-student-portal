@@ -46,10 +46,24 @@ a.a-link-block div {
   height: 100%;
 }
 
+a.a-link-block-dark div {
+  border: 1px solid transparent;
+  height: 100%;
+  background-color: #353535 !important;
+  color: gold !important;
+}
+
 a.a-link-block:hover div {
   background-color: #353535 !important;
   color: gold !important;
   border: 1px solid gold !important;
+  transition: ease 0.3s;
+}
+
+a.a-link-block-dark:hover div {
+  background-color: whitesmoke !important;
+  color: black !important;
+  border: 1px solid black !important;
   transition: ease 0.3s;
 }
 
@@ -135,7 +149,7 @@ input[type=password].form-control {
   min-height: 200px;
 }
 
-#cover-entry {
+.cover-entry {
   color: black;
   min-height: 400px;
   align-items: center;

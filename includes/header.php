@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="http://localhost/CMS/school-cms/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
           rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
           crossorigin="anonymous">
@@ -38,6 +39,8 @@
                             <span class="bi-house me-2"></span>Home</a>
                         <a class="me-lg-4 nav-link" href="login.php">
                             <span class="bi-person me-2"></span>Login</a>
+                        <a class="me-lg-4 nav-link" href="student/index.php">
+                            <span class="bi-person me-2"></span>Profile</a>
                         <a class="me-lg-4 nav-link" href="search.php">
                             <span class="bi-search me-2"></span>Search</a>
                         <a class="nav-link" href="#">
