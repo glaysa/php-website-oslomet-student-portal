@@ -47,9 +47,11 @@ function updateActiveLink(){
 function updatePageTitle(){
    const currentLocation = location.href;
    const links = document.querySelectorAll('body a');
-   const title = document.querySelector('#title');
    for(let link of links) {
-      if(link.href === currentLocation)
-         title.innerText = link.innerText;
+      if(link.href === currentLocation) {
+         console.log(link.innerText);
+         document.title = link.innerText;
+         break;
+      }
    }
 }

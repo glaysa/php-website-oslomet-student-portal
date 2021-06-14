@@ -186,7 +186,7 @@ input[type=password].form-control {
   display: flex;
   align-items: center;
 }
-.main-entry .news-img-wrapper #img-placeholder {
+.main-entry .news-img-wrapper .img-placeholder {
   max-height: 200px;
 }
 
