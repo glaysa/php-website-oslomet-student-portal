@@ -7,7 +7,7 @@
             <p class="display-6">Login</p>
             <hr class="w-100">
             <p class="lead">Login to access your personal timetable, tools, services and other information.</p>
-            <a href="#" class="btn btn-dark"><span class="bi-person-fill me-2"></span>LOGIN</a>
+            <a href="login.php" class="btn btn-dark"><span class="bi-person-fill me-2"></span>LOGIN</a>
         </div>
         <div class="order-lg-2 order-1">
             <img src="assets/images/cover-side-image.png" alt="cover image" class="img-fluid cover-img">

@@ -8,7 +8,7 @@
             <br>
             <p class="lead">Administrator</p>
             <hr class="w-100 my-1">
-            <a href="admin.php" class="a-link"><span class="bi-person-bounding-box me-2"></span>Admin Login</a>
+            <a href="loginAdmin.php" class="a-link"><span class="bi-person-bounding-box me-2"></span>Admin Login</a>
         </div>
         <div class="order-lg-2 order-1">
             <p class="lead">About</p>
