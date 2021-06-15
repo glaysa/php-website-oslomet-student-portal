@@ -8,58 +8,78 @@
                 <p class="display-6 text-gold">Announcements</p>
                 <hr class="w-100 bg-gold">
             </div>
-            <div class="col-12 pb-5">
-                <div class="text-white">
-                    <div class="px-3">
-                        <div class="p-lg-0 py-4 d-flex flex-lg-row flex-column align-items-center">
-                            <h3 class="fw-lighter flex-grow-1"><a href="#" class="a-link text-gold">Server Error 1</a></h3>
-                            <span class="text-white-50"><i class="bi-clock me-2"></i>Published - August 02, 2021</span>
+
+            <div class="accordion-item mb-3 border-0">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-gold text-dark fs-5"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne">Oslomet Server Error
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                    <div class="text-white">
+                        <div class="px-3 bg-dark-secondary">
+                            <div class="py-4 d-flex flex-lg-row flex-column align-items-center">
+                                <p class="lead m-lg-0 text-lg-start text-center flex-grow-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, porro?</p>
+                                <span class="text-white-50"><i class="bi-clock me-2"></i>Published - August 02, 2021</span>
+                            </div>
+                            <content>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
+                                    ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
+                                    Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
+                                    id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
+                                    sunt suscipit, voluptas.
+                                </p>
+                            </content>
+                            <div class="p-lg-0 py-4 d-flex flex-lg-row flex-column align-items-center gap-2 text-white-50">
+                                <p>Type: <span class="me-3">Issue</span></p>
+                                <p>Status: <span class="me-3">Solved</span></p>
+                                <p class="flex-grow-1 text-end">Last Updated: <span class="">August 10, 2021</span></p>
+                            </div>
                         </div>
-                        <content>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, porro?</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
-                                ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
-                                Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
-                                id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
-                                sunt suscipit, voluptas.
-                            </p>
-                        </content>
-                        <div class="p-lg-0 py-4 d-flex flex-lg-row flex-column align-items-center gap-2">
-                            <p class="text-white-50">Type: <span class="me-3">Issue</span></p>
-                            <p class="text-white-50">Status: <span class="me-3">Solved</span></p>
-                            <p class="text-white-50 flex-grow-1 text-end">Last Updated: <span class="">August 10, 2021</span></p>
-                        </div>
-                        <hr class="w-100">
                     </div>
                 </div>
             </div>
-            <div class="col-12 pb-5">
-                <div class="text-white">
-                    <div class="px-3">
-                        <div class="p-lg-0 py-4 d-flex flex-lg-row flex-column align-items-center">
-                            <h3 class="fw-lighter flex-grow-1"><a href="#" class="a-link text-gold">Semester Registration</a></h3>
-                            <span class="text-white-50"><i class="bi-clock me-2"></i>Published - August 02, 2021</span>
+            <div class="accordion-item mb-3 border-0">
+                <h2 class="accordion-header" id="flush-2">
+                    <button class="accordion-button collapsed bg-gold text-dark fs-5"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse-2"
+                            aria-expanded="false"
+                            aria-controls="flush-collapse-2">Semester Registration
+                    </button>
+                </h2>
+                <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-2">
+                    <div class="text-white">
+                        <div class="px-3 bg-dark-secondary">
+                            <div class="py-4 d-flex flex-lg-row flex-column align-items-center">
+                                <p class="lead m-lg-0 text-lg-start text-center flex-grow-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, porro?</p>
+                                <span class="text-white-50"><i class="bi-clock me-2"></i>Published - August 02, 2021</span>
+                            </div>
+                            <content>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
+                                    ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
+                                    Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
+                                    id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
+                                    sunt suscipit, voluptas.
+                                </p>
+                            </content>
+                            <div class="p-lg-0 py-4 d-flex flex-lg-row flex-column align-items-center gap-2 text-white-50">
+                                <p>Type: <span class="me-3">Issue</span></p>
+                                <p>Status: <span class="me-3">Solved</span></p>
+                                <p class="flex-grow-1 text-end">Last Updated: <span class="">August 10, 2021</span></p>
+                            </div>
                         </div>
-                        <content>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, consectetur.</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
-                                ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
-                                Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
-                                id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
-                                sunt suscipit, voluptas.
-                            </p>
-                        </content>
-                        <div class="p-lg-0 py-4 d-flex flex-lg-row flex-column align-items-center gap-2">
-                            <p class="text-white-50">Type: <span class="me-3">Content</span></p>
-                            <p class="text-white-50">Status: <span class="me-3">Published</span></p>
-                            <p class="text-white-50 flex-grow-1 text-end">Last Updated: <span class="">August 10, 2021</span></p>
-                        </div>
-                        <hr class="w-100">
                     </div>
                 </div>
             </div>
+            <hr class="w-100 bg-gold">
         </div>
     </section>
 </main>

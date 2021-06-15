@@ -89,6 +89,13 @@ a.a-link-block-dark:hover div {
   border-bottom: 1px solid gold !important;
 }
 
+.accordion-button {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: black !important;
+}
+
 .bg-dark {
   background-color: #252525 !important;
 }
