@@ -17,6 +17,7 @@
             <a href="https://www.oslomet.no/ub/" class="a-link"><span class="bi-bookshelf me-2"></span>Library</a>
             <a href="allNews.php" class="a-link"><span class="bi-card-text me-2"></span>News</a>
             <a href="#" class="a-link"><span class="bi-calendar2-week me-2"></span>Activities</a>
+            <a href="#" class="a-link"><span class="bi-megaphone me-2"></span>Announcements</a>
         </div>
         <div class="order-lg-3 order-2">
             <p class="lead">Social Media</p>

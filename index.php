@@ -143,7 +143,7 @@
                         <img src="assets/images/img-placeholder.png" alt="placeholder" class="img-placeholder img-fluid">
                     </div>
                     <div class="px-3">
-                        <p class="display-6"><a href="#" class="a-link text-gold">News 1</a></p>
+                        <h1 class="fw-light"><a href="#" class="a-link text-gold">News 1</a></h1>
                         <content>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
                             ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
@@ -160,7 +160,7 @@
                         <img src="assets/images/img-placeholder.png" alt="placeholder" class="img-placeholder img-fluid">
                     </div>
                     <div class="px-3">
-                        <p class="display-6"><a href="#" class="a-link text-gold">News 1</a></p>
+                        <h1 class="fw-light"><a href="#" class="a-link text-gold">News 1</a></h1>
                         <content>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
                             ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
@@ -177,7 +177,7 @@
                         <img src="assets/images/img-placeholder.png" alt="placeholder" class="img-placeholder img-fluid">
                     </div>
                     <div class="px-3">
-                        <p class="display-6"><a href="#" class="a-link text-gold">News 1</a></p>
+                        <h1 class="fw-light"><a href="#" class="a-link text-gold">News 1</a></h1>
                         <content>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
                             ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
@@ -211,8 +211,7 @@
                         </div>
 
                         <div class="px-3 flex-grow-1">
-                            <p class="display-6">
-                                <a href="#" class="a-link-dark text-dark">Activity 1</a></p>
+                            <h3 class="fw-lighter"><a href="#" class="a-link-dark text-dark">Activity 1</a></h3>
                             <content>
                                 Lorem ipsum dolor sit amet
                             </content>
@@ -220,13 +219,12 @@
                     </div>
                     <div class="d-flex mb-4">
                         <div class="date-block m-lg-0 mx-auto">
-                            <span class="d-block fs-1">10</span>
-                            <span class="d-block">October</span>
+                            <span class="d-block fs-1">24</span>
+                            <span class="d-block">Aug</span>
                         </div>
 
                         <div class="px-3 flex-grow-1">
-                            <p class="display-6">
-                                <a href="#" class="a-link-dark text-dark">Activity 1</a></p>
+                            <h3 class="fw-lighter"><a href="#" class="a-link-dark text-dark">Activity 1</a></h3>
                             <content>
                                 Lorem ipsum dolor sit amet
                             </content>
@@ -234,19 +232,19 @@
                     </div>
                     <div class="d-flex mb-4">
                         <div class="date-block m-lg-0 mx-auto">
-                            <span class="d-block fs-1">07</span>
-                            <span class="d-block">November</span>
+                            <span class="d-block fs-1">24</span>
+                            <span class="d-block">Aug</span>
                         </div>
 
                         <div class="px-3 flex-grow-1">
-                            <p class="display-6">
-                                <a href="#" class="a-link-dark text-dark">Activity 1</a></p>
+                            <h3 class="fw-lighter"><a href="#" class="a-link-dark text-dark">Activity 1</a></h3>
                             <content>
                                 Lorem ipsum dolor sit amet
                             </content>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6">
                     <div class="d-none d-lg-block">
                         <img src="assets/images/activities-cover.png" alt="cover image" class="img-fluid cover-img">
