@@ -16,7 +16,7 @@
             <a href="https://oslomet.no/" class="a-link"><span class="bi-building me-2"></span>Oslomet</a>
             <a href="https://www.oslomet.no/ub/" class="a-link"><span class="bi-bookshelf me-2"></span>Library</a>
             <a href="allNews.php" class="a-link"><span class="bi-card-text me-2"></span>News</a>
-            <a href="#" class="a-link"><span class="bi-calendar2-week me-2"></span>Activities</a>
+            <a href="activities.php" class="a-link"><span class="bi-calendar2-week me-2"></span>Activities</a>
             <a href="announcements.php" class="a-link"><span class="bi-megaphone me-2"></span>Announcements</a>
         </div>
         <div class="order-lg-3 order-2">
