@@ -62,7 +62,7 @@
     <div class="row row-cols-lg-3 g-0 mt-5">
         <div class="col"><hr class="w-100 bg-gold"></div>
         <div class="col">
-            <a href="#" class="a-link fw-bolder text-gold mx-auto text-center">See all announcements</a>
+            <a href="announcements.php" class="a-link fw-bolder text-gold mx-auto text-center">See all announcements</a>
         </div>
         <div class="col"><hr class="w-100 bg-gold"></div>
     </div>
