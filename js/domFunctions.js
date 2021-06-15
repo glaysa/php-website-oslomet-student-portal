@@ -7,7 +7,6 @@ $(document).ready(function () {
    removeMaxWidth();
    removeMaxWidthOnWindowResize();
    updateActiveLink();
-   updatePageTitle();
 });
 
 /* Changes the toggle icon on menu for smaller devices */
@@ -39,19 +38,6 @@ function updateActiveLink(){
    for(let link of menuItems) {
       if(link.href === currentLocation) {
          link.classList.add('active');
-      }
-   }
-}
-
-/* Updates page title based on the clicked link */
-function updatePageTitle(){
-   const currentLocation = location.href;
-   const links = document.querySelectorAll('body a');
-   for(let link of links) {
-      if(link.href === currentLocation) {
-         console.log(link.innerText);
-         document.title = link.innerText;
-         break;
       }
    }
 }

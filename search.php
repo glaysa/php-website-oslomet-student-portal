@@ -1,5 +1,5 @@
 
-<?php include 'includes/header.php' ?>
+<?php include 'includes/header.php'; $title = 'Search' ?>
 <body class="bg-body-dark">
 <main class="container-fluid">
     <section class="container main-entry">

@@ -1,5 +1,5 @@
 
-<?php include 'includes/header.php' ?>
+<?php include 'includes/header.php'; $title = 'Student Portal' ?>
 <body class="bg-body-dark">
 <div id="cover-container" class="container-fluid">
     <section class="cover-entry container d-flex flex-lg-row flex-column">

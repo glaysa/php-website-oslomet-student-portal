@@ -1,5 +1,5 @@
 
-<?php include '../includes/header.php' ?>
+<?php include '../includes/header.php'; $title = 'Your Profile' ?>
 <body class="bg-body-dark">
 <div id="cover-container" class="container-fluid">
     <section class="container">
