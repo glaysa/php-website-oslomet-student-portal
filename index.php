@@ -16,6 +16,7 @@
 </div>
 
 <main class="container-fluid">
+    <?php include 'includes/sections/shortcuts.inc.php'?>
     <?php include 'includes/sections/forStudents.inc.php' ?>
     <?php include 'includes/sections/news.inc.php' ?>
     <?php include 'includes/sections/activities.inc.php' ?>
