@@ -83,6 +83,10 @@ a.a-link-block-dark:hover div {
   background-color: #353535 !important;
 }
 
+.bg-dark-secondary-50 {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .bg-body-dark {
   background-color: #202020 !important;
 }
@@ -120,6 +124,10 @@ a.a-link-block-dark:hover div {
   background-color: #252525 !important;
 }
 
+body.modal-open {
+  padding: 0 !important;
+}
+
 .btn-close {
   border: none !important;
   outline: none !important;
@@ -148,6 +156,10 @@ input[type="password"].form-control {
   border: gold !important;
   box-shadow: none !important;
   outline: none !important;
+}
+
+.modal-backdrop {
+  background: transparent !important;
 }
 
 .nav-link:hover {

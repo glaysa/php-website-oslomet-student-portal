@@ -49,14 +49,14 @@
         <!-- TODO: Should only be visible to admin and students -->
 
         <div class="p-2 col-lg-2 col-md-4 col-6">
-            <a type="button" class="a-link-block text-decoration-none" data-bs-toggle="modal" data-bs-target="#shortcutModal">
+            <a class="a-link-block text-decoration-none" data-bs-toggle="modal" data-bs-target="#shortcutModal">
                 <div class="p-3 bg-dark-secondary text-gold text-center">
                     <span class="bi-plus-circle" style="font-size: 30px"></span>
                     <p class="m-0">Add Shortcut</p></div>
             </a>
         </div>
 
-        <div class="modal fade" id="shortcutModal" tabindex="-1" aria-labelledby="shortcutModal" aria-hidden="true">
+        <div class="modal fade bg-dark-secondary-50" id="shortcutModal" tabindex="-1" aria-labelledby="shortcutModal" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered text-white">
                 <div class="modal-content bg-dark">
                     <div class="modal-body">
@@ -65,7 +65,11 @@
                         <form action="" class="form">
                             <input type="text" name="shortcut-name" placeholder="Name" class="mb-3 form-control">
                             <input type="text" name="shortcut-link" placeholder="Link" class="mb-3 form-control">
-                            <input type="submit" name="shortcut-submit" value="Add" class="mb-3 form-control btn btn-warning">
+                            <button type="submit"
+                                    name="shortcut-submit"
+                                    id="add-shortcut-btn"
+                                    class="mb-3 form-control btn btn-warning">Add
+                            </button>
                         </form>
                     </div>
                 </div>
