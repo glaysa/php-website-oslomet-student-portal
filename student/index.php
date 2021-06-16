@@ -7,18 +7,21 @@
             <div class="text-lg-start flex-grow-1 text-center order-lg-1 order-2">
                 <p class="display-6">Your Program(s)</p>
                 <hr class="w-100">
+
                 <a href="#" class="a-link-block-dark text-decoration-none">
                     <div class="p-3 mb-3 bg-gold text-dark text-center d-flex align-items-center">
                         <span class="bi-chevron-right" style="font-size: 30px"></span>
                         <p class="px-4 m-0 fw-bold">Bachelor in Information Technology</p>
                     </div>
                 </a>
+
                 <a href="#" class="a-link-block-dark text-decoration-none">
                     <div class="p-3 mb-3 bg-gold text-dark text-center d-flex align-items-center">
                         <span class="bi-chevron-right" style="font-size: 30px"></span>
                         <p class="px-4 m-0 fw-bold">Master in Business Management</p>
                     </div>
                 </a>
+
                 <div class="p-3 mb-3 bg-gold text-dark text-center d-flex align-items-center">
                     <hr class="w-100 bg-dark">
                     <div class="w-100">
@@ -26,6 +29,7 @@
                     </div>
                     <hr class="w-100 bg-dark">
                 </div>
+
             </div>
             <div class="order-lg-2 order-1">
                 <img src="assets/images/student-cover.png" alt="cover image" class="img-fluid cover-img">
@@ -34,288 +38,10 @@
     </section>
 </div>
 
-<div class="container mt-5">
-    <h1 class="fw-lighter text-white text-center">Announcements</h1>
-    <hr class="w-100 bg-gold">
-
-    <div class="my-5">
-        <div class="alert alert-light my-2" role="alert">
-            <h4 class="alert-heading">Well done!</h4>
-            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-            <hr>
-            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-        </div>
-        <div class="alert alert-light alert-dismissible fade show my-2" role="alert">
-            <div class="row align-items-center">
-                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nemo?</p>
-            </div>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-        <div class="alert alert-light alert-dismissible fade show my-2" role="alert">
-            <div class="row align-items-center">
-                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nemo?</p>
-            </div>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-    </div>
-
-    <div class="row row-cols-lg-3 g-0 mt-5">
-        <div class="col"><hr class="w-100 bg-gold"></div>
-        <div class="col">
-            <a href="announcements.php" class="a-link fw-bolder text-gold mx-auto text-center">See all announcements</a>
-        </div>
-        <div class="col"><hr class="w-100 bg-gold"></div>
-    </div>
-</div>
-
 <main class="container-fluid">
-    <section class="container main-entry my-5">
-        <div class="row g-0 justify-content-center">
-            <div class="p-2 col-lg-2 col-md-4 col-6">
-                <a href="#" class="a-link-block text-decoration-none">
-                    <div class="p-3 bg-gold text-dark text-center">
-                        <span class="bi-person-check" style="font-size: 30px"></span>
-                        <p class="m-0">New Student</p></div>
-                </a>
-            </div>
-            <div class="p-2 col-lg-2 col-md-4 col-6">
-                <a href="#" class="a-link-block text-decoration-none">
-                    <div class="p-3 bg-gold text-dark text-center">
-                        <span class="bi-geo-alt" style="font-size: 30px"></span>
-                        <p class="m-0">MazeMap</p></div>
-                </a>
-            </div>
-            <div class="p-2 col-lg-2 col-md-4 col-6">
-                <a href="#" class="a-link-block text-decoration-none">
-                    <div class="p-3 bg-gold text-dark text-center">
-                        <span class="bi-calendar3-week" style="font-size: 30px"></span>
-                        <p class="m-0">Course Schedule</p></div>
-                </a>
-            </div>
-            <div class="p-2 col-lg-2 col-md-4 col-6">
-                <a href="#" class="a-link-block text-decoration-none">
-                    <div class="p-3 bg-gold text-dark text-center">
-                        <span class="bi-link-45deg" style="font-size: 30px"></span>
-                        <p class="m-0">Reserve Rooms</p></div>
-                </a>
-            </div>
-            <div class="p-2 col-lg-2 col-md-4 col-6">
-                <a href="#" class="a-link-block text-decoration-none">
-                    <div class="p-3 bg-gold text-dark text-center">
-                        <span class="bi-link-45deg" style="font-size: 30px"></span>
-                        <p class="m-0">Inspera</p></div>
-                </a>
-            </div>
-            <div class="p-2 col-lg-2 col-md-4 col-6">
-                <a href="#" class="a-link-block text-decoration-none">
-                    <div class="p-3 bg-gold text-dark text-center">
-                        <span class="bi-link-45deg" style="font-size: 30px"></span>
-                        <p class="m-0">StudentWeb</p></div>
-                </a>
-            </div>
-        </div>
-        <div class="row g-0">
-            <div class="col">
-                <p class="display-6 text-center pt-5">For Oslomet Students</p>
-                <hr class="w-100 bg-gold mb-5">
-                <details class="bg-dark-secondary">
-                    <summary class="lead">Student Life</summary>
-                    <hr class="w-100">
-                    <content>
-                        <div class="d-flex flex-lg-row flex-column align-items-stretch flex-wrap">
-                            <div class="category-wrapper px-3 py-4">
-                                <p class="lead">Category</p>
-                                <hr class="w-100">
-                                <a href="#" class="a-link">Link 1</a>
-                                <a href="#" class="a-link">Link 2</a>
-                                <a href="#" class="a-link">Link 3</a>
-                            </div>
-                            <div class="category-wrapper px-3 py-4">
-                                <p class="lead">Category</p>
-                                <hr class="w-100">
-                                <a href="#" class="a-link">Link 1</a>
-                                <a href="#" class="a-link">Link 2</a>
-                                <a href="#" class="a-link">Link 3</a>
-                            </div>
-                            <div class="category-wrapper px-3 py-4">
-                                <p class="lead">Category</p>
-                                <hr class="w-100">
-                                <a href="#" class="a-link">Link 1</a>
-                                <a href="#" class="a-link">Link 2</a>
-                                <a href="#" class="a-link">Link 3</a>
-                            </div>
-                        </div>
-                    </content>
-                </details>
-                <details class="bg-dark-secondary">
-                    <summary class="lead">Examination</summary>
-                    <hr class="w-100">
-                    <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ea.</p>
-                    </content>
-                </details>
-                <details class="bg-dark-secondary">
-                    <summary class="lead">Exchange</summary>
-                    <hr class="w-100">
-                    <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, quam.</p>
-                    </content>
-                </details>
-                <details class="bg-dark-secondary">
-                    <summary class="lead">Literature</summary>
-                    <hr class="w-100">
-                    <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, nostrum?</p>
-                    </content>
-                </details>
-                <details class="bg-dark-secondary">
-                    <summary class="lead">Counseling</summary>
-                    <hr class="w-100">
-                    <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, illum.</p>
-                    </content>
-                </details>
-                <details class="bg-dark-secondary">
-                    <summary class="lead">Tools and User Support</summary>
-                    <hr class="w-100">
-                    <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, mollitia?</p>
-                    </content>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <section class="container news-section mb-5">
-        <div class="row g-0">
-            <p class="display-6 text-white text-center pt-5">News</p>
-            <hr class="w-100 bg-gold mb-5">
-            <div class="col-12 pb-5">
-                <div class="text-white d-flex flex-lg-row flex-column">
-                    <div class="news-img-wrapper m-lg-0 mx-auto my-4">
-                        <img src="assets/images/img-placeholder.png" alt="placeholder" class="img-placeholder img-fluid">
-                    </div>
-                    <div class="px-3">
-                        <p class="display-6"><a href="#" class="a-link text-gold">News 1</a></p>
-                        <content>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
-                            ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
-                            Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
-                            id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
-                            sunt suscipit, voluptas.
-                        </content>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 pb-5">
-                <div class="text-white d-flex flex-lg-row flex-column">
-                    <div class="news-img-wrapper m-lg-0 mx-auto my-4">
-                        <img src="assets/images/img-placeholder.png" alt="placeholder" class="img-placeholder img-fluid">
-                    </div>
-                    <div class="px-3">
-                        <p class="display-6"><a href="#" class="a-link text-gold">News 1</a></p>
-                        <content>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
-                            ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
-                            Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
-                            id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
-                            sunt suscipit, voluptas.
-                        </content>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 pb-5">
-                <div class="text-white d-flex flex-lg-row flex-column">
-                    <div class="news-img-wrapper m-lg-0 mx-auto my-4">
-                        <img src="assets/images/img-placeholder.png" alt="placeholder" class="img-placeholder img-fluid">
-                    </div>
-                    <div class="px-3">
-                        <p class="display-6"><a href="#" class="a-link text-gold">News 1</a></p>
-                        <content>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi cupiditate eos expedita
-                            ipsam minus, necessitatibus quod repudiandae? Adipisci atque beatae consequatur totam ullam.
-                            Amet aperiam autem cupiditate deserunt distinctio dolorum eligendi expedita explicabo facere
-                            id impedit incidunt, maxime minima, nam necessitatibus nobis placeat possimus provident sit
-                            sunt suscipit, voluptas.
-                        </content>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-lg-3 g-0">
-            <div class="col"><hr class="w-100 bg-gold"></div>
-            <div class="col">
-                <a href="allNews.php" class="a-link fw-bolder text-gold mx-auto">See all news</a>
-            </div>
-            <div class="col"><hr class="w-100 bg-gold"></div>
-        </div>
-    </section>
-
-    <section class="container-fluid bg-gold text-dark">
-        <div class="container activities-section pb-5">
-            <div class="row g-0">
-                <p class="display-6 text-center pt-5">Activities</p>
-                <hr class="w-100 bg-dark">
-
-                <div class="col-lg-6 col-12 py-5">
-                    <div class="d-flex mb-4">
-                        <div class="date-block m-lg-0 mx-auto">
-                            <span class="d-block fs-1">24</span>
-                            <span class="d-block">Aug</span>
-                        </div>
-
-                        <div class="px-3 flex-grow-1">
-                            <p class="display-6">
-                                <a href="#" class="a-link-dark text-dark">Activity 1</a></p>
-                            <content>
-                                Lorem ipsum dolor sit amet
-                            </content>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <div class="date-block m-lg-0 mx-auto">
-                            <span class="d-block fs-1">10</span>
-                            <span class="d-block">October</span>
-                        </div>
-
-                        <div class="px-3 flex-grow-1">
-                            <p class="display-6">
-                                <a href="#" class="a-link-dark text-dark">Activity 1</a></p>
-                            <content>
-                                Lorem ipsum dolor sit amet
-                            </content>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <div class="date-block m-lg-0 mx-auto">
-                            <span class="d-block fs-1">07</span>
-                            <span class="d-block">November</span>
-                        </div>
-
-                        <div class="px-3 flex-grow-1">
-                            <p class="display-6">
-                                <a href="#" class="a-link-dark text-dark">Activity 1</a></p>
-                            <content>
-                                Lorem ipsum dolor sit amet
-                            </content>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="d-none d-lg-block">
-                        <img src="assets/images/activities-cover.png" alt="cover image" class="img-fluid cover-img">
-                    </div>
-                </div>
-            </div>
-            <div class="row row-cols-lg-3 g-0">
-                <div class="col"><hr class="w-100 bg-dark"></div>
-                <div class="col">
-                    <a href="#" class="a-link-dark fw-bolder text-dark mx-auto">All Activities</a>
-                </div>
-                <div class="col"><hr class="w-100 bg-dark"></div>
-            </div>
-        </div>
-    </section>
+    <?php include '../includes/sections/announcements.inc.php' ?>
+    <?php include '../includes/sections/forStudents.inc.php'?>
+    <?php include '../includes/sections/news.inc.php' ?>
+    <?php include '../includes/sections/activities.inc.php' ?>
 </main>
 <?php include '../includes/footer.php' ?>
