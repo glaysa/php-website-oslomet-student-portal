@@ -1,5 +1,5 @@
 <section class="container">
-    <div class="row g-0">
+    <div class="row g-0" id="shortcut-section">
         <p class="display-6 text-center text-white pt-5">Shortcuts</p>
         <hr class="w-100 bg-gold mb-5">
 
@@ -46,6 +46,16 @@
             </a>
         </div>
 
+        <template id="shortcut-template">
+            <div class="p-2 col-lg-2 col-md-4 col-6 shortcut">
+                <a href="#" class="a-link-block text-decoration-none">
+                    <div class="p-3 bg-gold text-dark text-center">
+                        <span class="bi-link-45deg" style="font-size: 30px"></span>
+                        <p class="m-0">StudentWeb</p></div>
+                </a>
+            </div>
+        </template>
+
         <!-- TODO: Should only be visible to admin and students -->
         <div class="p-2 col-lg-2 col-md-4 col-6 order-12">
             <a class="a-link-block-dark text-decoration-none" data-bs-toggle="modal" data-bs-target="#shortcutModal">
@@ -61,8 +71,8 @@
                         <h3 class="modal-title fw-light text-gold text-center">New Shortcut</h3>
                         <hr class="w-100 bg-gold">
                         <form action="" class="form">
-                            <input type="text" name="shortcut-name" placeholder="Name" class="mb-3 form-control">
-                            <input type="text" name="shortcut-link" placeholder="Link" class="mb-3 form-control">
+                            <input type="text" name="shortcut-name" placeholder="Name" id="shortcut-name" class="mb-3 form-control">
+                            <input type="text" name="shortcut-link" placeholder="Link" id="shortcut-link" class="mb-3 form-control">
                             <button type="submit"
                                     name="shortcut-submit"
                                     id="add-shortcut-btn"
