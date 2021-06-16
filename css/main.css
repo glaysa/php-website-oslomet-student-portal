@@ -58,6 +58,7 @@ a.a-link-block:hover div {
   color: gold !important;
   border: 1px solid gold !important;
   transition: ease 0.3s;
+  cursor: pointer !important;
 }
 
 a.a-link-block-dark:hover div {
@@ -65,6 +66,7 @@ a.a-link-block-dark:hover div {
   color: black !important;
   border: 1px solid black !important;
   transition: ease 0.3s;
+  cursor: pointer !important;
 }
 
 .bg-dark-secondary {
