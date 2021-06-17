@@ -42,6 +42,8 @@
                             <span class="bi-person me-2"></span>Login</a>
                         <a class="me-lg-4 nav-link" href="student/index.php">
                             <span class="bi-person me-2"></span>Profile</a>
+                        <a class="me-lg-4 nav-link" href="admin/index.php">
+                            <span class="bi-person me-2"></span>Admin</a>
                         <a class="me-lg-4 nav-link" href="search.php">
                             <span class="bi-search me-2"></span>Search</a>
                         <a class="nav-link" href="#">
