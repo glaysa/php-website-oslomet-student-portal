@@ -1,14 +1,14 @@
 
-<?php include 'includes/header.php'; $title = 'Activities' ?>
+<?php include '../includes/header.php'; $title = 'All Activities' ?>
 <body class="bg-body-dark">
 <main class="container-fluid">
     <section class="container main-entry">
         <div class="row g-0 p-3 my-5 justify-content-center">
             <div class="col-12 text-center">
-                <p class="display-6 text-gold">Activities</p>
+                <p class="display-6 text-gold">All Activities</p>
                 <hr class="w-100 bg-gold">
             </div>
-            <div class="col-lg-6 col-12 py-5">
+            <div class="col-12 py-5">
                 <div class="d-flex mb-4 bg-dark align-items-stretch">
                     <div class="date-block m-lg-0 mx-auto">
                         <span class="d-block fs-1">24</span>
@@ -39,5 +39,5 @@
         </div>
     </section>
 </main>
-<?php include 'includes/footer.php' ?>
+<?php include '../includes/footer.php' ?>
 

@@ -57,7 +57,7 @@
     <div class="row row-cols-lg-3 g-0">
         <div class="col"><hr class="w-100 bg-gold"></div>
         <div class="col">
-            <a href="allNews.php" class="a-link fw-bolder text-gold mx-auto">See all news</a>
+            <a href="pages/allNews.php" class="a-link fw-bolder text-gold mx-auto">See all news</a>
         </div>
         <div class="col"><hr class="w-100 bg-gold"></div>
     </div>

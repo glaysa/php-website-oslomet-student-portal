@@ -25,7 +25,7 @@
         <div class="row row-cols-lg-3 g-0 mt-5">
             <div class="col"><hr class="w-100"></div>
             <div class="col">
-                <a href="allAnnouncements.php" class="a-link-dark fw-bolder mx-auto text-center">See all announcements</a>
+                <a href="pages/allAnnouncements.php" class="a-link-dark fw-bolder mx-auto text-center">See all announcements</a>
             </div>
             <div class="col"><hr class="w-100"></div>
         </div>

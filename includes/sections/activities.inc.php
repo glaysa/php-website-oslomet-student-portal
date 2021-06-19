@@ -54,7 +54,7 @@
         <div class="row row-cols-lg-3 g-0">
             <div class="col"><hr class="w-100 bg-dark"></div>
             <div class="col">
-                <a href="allActivities.php" class="a-link-dark fw-bolder text-dark mx-auto">All Activities</a>
+                <a href="pages/allActivities.php" class="a-link-dark fw-bolder text-dark mx-auto">All Activities</a>
             </div>
             <div class="col"><hr class="w-100 bg-dark"></div>
         </div>

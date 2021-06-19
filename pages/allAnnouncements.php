@@ -1,11 +1,11 @@
 
-<?php include 'includes/header.php'; $title = 'Announcements' ?>
+<?php include '../includes/header.php'; $title = 'All Announcements' ?>
 <body class="bg-body-dark">
 <main class="container-fluid">
     <section class="container main-entry">
         <div class="row g-0 p-3 my-5">
             <div class="col text-center">
-                <p class="display-6 text-gold">Announcements</p>
+                <p class="display-6 text-gold">All Announcements</p>
                 <hr class="w-100 bg-gold">
             </div>
 
@@ -83,4 +83,4 @@
         </div>
     </section>
 </main>
-<?php include 'includes/footer.php' ?>
+<?php include '../includes/footer.php' ?>

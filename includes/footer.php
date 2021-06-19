@@ -15,9 +15,9 @@
             <hr class="w-100">
             <a href="https://oslomet.no/" class="a-link"><span class="bi-building me-2"></span>Oslomet</a>
             <a href="https://www.oslomet.no/ub/" class="a-link"><span class="bi-bookshelf me-2"></span>Library</a>
-            <a href="allNews.php" class="a-link"><span class="bi-card-text me-2"></span>News</a>
-            <a href="allActivities.php" class="a-link"><span class="bi-calendar2-week me-2"></span>Activities</a>
-            <a href="allAnnouncements.php" class="a-link"><span class="bi-megaphone me-2"></span>Announcements</a>
+            <a href="pages/allNews.php" class="a-link"><span class="bi-card-text me-2"></span>News</a>
+            <a href="pages/allActivities.php" class="a-link"><span class="bi-calendar2-week me-2"></span>Activities</a>
+            <a href="pages/allAnnouncements.php" class="a-link"><span class="bi-megaphone me-2"></span>Announcements</a>
         </div>
         <div class="order-lg-3 order-2">
             <p class="lead">Social Media</p>
@@ -33,7 +33,7 @@
         <p><a href="#" class="a-link d-inline">Privacy & Policy</a></p>
         <p><a href="#" class="a-link d-inline">Terms of Use</a></p>
         <p><a href="#" class="a-link d-inline">Cookies</a></p>
-        <p><a href="credits.php" class="a-link d-inline">Credits</a></p>
+        <p><a href="pages/credits.php" class="a-link d-inline">Credits</a></p>
         <p>Developer &copy; <a href="https://github.com/Glaysa" class="a-link d-inline">Glaysa Fernandez </a></p>
     </section>
 </footer>
@@ -45,6 +45,5 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous"></script>
 <script src="js/domFunctions.js" type="text/javascript"></script>
-<script src="js/createElements.js" type="text/javascript"></script>
 <script type="text/javascript">document.title = "<?php echo $title; ?>"</script>
 </html>

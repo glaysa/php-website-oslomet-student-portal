@@ -1,5 +1,5 @@
 
-<?php include 'includes/header.php'; $title = 'Credits'?>
+<?php include '../includes/header.php'; $title = 'Credits'?>
 <body class="bg-body-dark">
 <main class="container-fluid">
     <section class="container main-entry">
@@ -28,4 +28,4 @@
         </div>
     </section>
 </main>
-<?php include 'includes/footer.php' ?>
+<?php include '../includes/footer.php' ?>

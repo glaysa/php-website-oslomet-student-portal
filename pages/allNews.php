@@ -1,5 +1,5 @@
 
-<?php include 'includes/header.php'; $title = 'All News' ?>
+<?php include '../includes/header.php'; $title = 'All News' ?>
 <body class="bg-body-dark">
 <main class="container-fluid">
     <section class="container main-entry">
@@ -62,4 +62,4 @@
         </div>
     </section>
 </main>
-<?php include 'includes/footer.php' ?>
+<?php include '../includes/footer.php' ?>
