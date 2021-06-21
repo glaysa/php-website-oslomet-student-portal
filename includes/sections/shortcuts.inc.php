@@ -11,35 +11,56 @@
             </a>
         </div>
         <div class="p-2 col-lg-2 col-md-4 col-6">
-            <a href="#" class="a-link-block text-decoration-none">
+            <a href="pages/majors.php" class="a-link-block text-decoration-none">
                 <div class="p-3 bg-gold text-dark text-center">
-                    <span class="bi-geo-alt" style="font-size: 30px"></span>
-                    <p class="m-0">MazeMap</p></div>
+                    <span class="bi-list-stars" style="font-size: 30px"></span>
+                    <p class="m-0">Majors</p></div>
             </a>
         </div>
         <div class="p-2 col-lg-2 col-md-4 col-6">
-            <a href="#" class="a-link-block text-decoration-none">
+            <a href="pages/courses.php" class="a-link-block text-decoration-none">
+                <div class="p-3 bg-gold text-dark text-center">
+                    <span class="bi-list-stars" style="font-size: 30px"></span>
+                    <p class="m-0">Courses</p></div>
+            </a>
+        </div>
+        <div class="p-2 col-lg-2 col-md-4 col-6">
+            <a href="https://tp.uio.no/oslomet/timeplan/emner.php" class="a-link-block text-decoration-none">
                 <div class="p-3 bg-gold text-dark text-center">
                     <span class="bi-calendar3-week" style="font-size: 30px"></span>
                     <p class="m-0">Course Schedule</p></div>
             </a>
         </div>
         <div class="p-2 col-lg-2 col-md-4 col-6">
-            <a href="#" class="a-link-block text-decoration-none">
+            <a href="https://use.mazemap.com/#v=1&zlevel=1&center=10.732743,59.922527&zoom=18&campusid=53" class="a-link-block text-decoration-none">
+                <div class="p-3 bg-gold text-dark text-center">
+                    <span class="bi-geo-alt" style="font-size: 30px"></span>
+                    <p class="m-0">MazeMap</p></div>
+            </a>
+        </div>
+        <div class="p-2 col-lg-2 col-md-4 col-6">
+            <a href="https://tp.uio.no/oslomet/rombestilling/" class="a-link-block text-decoration-none">
                 <div class="p-3 bg-gold text-dark text-center">
                     <span class="bi-link-45deg" style="font-size: 30px"></span>
                     <p class="m-0">Reserve Rooms</p></div>
             </a>
         </div>
         <div class="p-2 col-lg-2 col-md-4 col-6">
-            <a href="#" class="a-link-block text-decoration-none">
+            <a href="https://oslomet.inspera.no/student" class="a-link-block text-decoration-none">
                 <div class="p-3 bg-gold text-dark text-center">
                     <span class="bi-link-45deg" style="font-size: 30px"></span>
                     <p class="m-0">Inspera</p></div>
             </a>
         </div>
         <div class="p-2 col-lg-2 col-md-4 col-6">
-            <a href="#" class="a-link-block text-decoration-none">
+            <a href="https://oslomet.instructure.com/" class="a-link-block text-decoration-none">
+                <div class="p-3 bg-gold text-dark text-center">
+                    <span class="bi-link-45deg" style="font-size: 30px"></span>
+                    <p class="m-0">Canvas</p></div>
+            </a>
+        </div>
+        <div class="p-2 col-lg-2 col-md-4 col-6">
+            <a href="https://fsweb.no/studentweb/login.jsf?inst=FSHIOA" class="a-link-block text-decoration-none">
                 <div class="p-3 bg-gold text-dark text-center">
                     <span class="bi-link-45deg" style="font-size: 30px"></span>
                     <p class="m-0">StudentWeb</p></div>
@@ -51,7 +72,7 @@
                 <a href="#" class="a-link-block text-decoration-none">
                     <div class="p-3 bg-gold text-dark text-center">
                         <span class="bi-link-45deg" style="font-size: 30px"></span>
-                        <p class="m-0">StudentWeb</p></div>
+                        <p class="m-0"></p></div>
                 </a>
             </div>
         </template>

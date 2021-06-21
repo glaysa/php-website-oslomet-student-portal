@@ -2,10 +2,10 @@
 <?php include '../includes/header.php'; $title = 'Administrator' ?>
 <body class="bg-body-dark">
 <main class="container-fluid">
-    <section class="main-entry p-3 mb-5">
+    <section class="main-entry py-3 px-5 mb-5">
         <div class="row g-0 my-5 p-lg-0 px-3 justify-content-center">
-            <div class="col-lg-3">
-                <h2 class="fw-lighter text-gold text-center">Create</h2>
+            <div class="col-lg-2">
+                <h2 class="fw-lighter text-gold text-center">All</h2>
                 <hr class="w-100 bg-gold">
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="flush-2">
@@ -178,8 +178,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-9">
-                <h2 class="fw-lighter text-gold text-center">Information</h2>
+            <div class="col-lg-10">
+                <h2 class="fw-lighter text-gold text-center">Dashboard</h2>
                 <hr class="w-100 bg-gold">
                 <div class="ms-lg-3 m-0 bg-dark"></div>
             </div>
