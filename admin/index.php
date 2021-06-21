@@ -35,7 +35,7 @@
                                     </a>
                                 </div>
                                 <content>
-                                    <p class="m-0">Creates a new major shown to all students under the 'Majors' section and page.</p>
+                                    <p class="m-0">Creates a new major shown to everyone under the 'Majors' page.</p>
                                 </content>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                                     </a>
                                 </div>
                                 <content>
-                                    <p class="m-0">Creates a new Course shown to all students under the 'Courses' section and page.</p>
+                                    <p class="m-0">Creates a new Course shown to everyone under the 'Courses' page.</p>
                                 </content>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                                     </a>
                                 </div>
                                 <content>
-                                    <p class="m-0">Creates a new announcement shown to all students under the 'Announcements' section and page.</p>
+                                    <p class="m-0">Creates a new shortcut shown to everyone under the 'Shortcuts' section.</p>
                                 </content>
                             </div>
                         </div>
@@ -148,12 +148,12 @@
                         <button class="accordion-button collapsed bg-gold text-dark fs-5"
                                 type="button"
                                 data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapse-2"
+                                data-bs-target="#activities-collapse-2"
                                 aria-expanded="false"
-                                aria-controls="flush-collapse-2">Activities
+                                aria-controls="activities-collapse-2">Activities
                         </button>
                     </h2>
-                    <div id="flush-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-2">
+                    <div id="activities-collapse-2" class="accordion-collapse collapse" aria-labelledby="flush-2">
                         <div class="text-white">
                             <div class="p-3 bg-dark-secondary">
                                 <div class="d-lg-flex d-block justify-content-between mb-2">
@@ -171,7 +171,41 @@
                                     </a>
                                 </div>
                                 <content>
-                                    <p class="m-0">Creates a new announcement shown to all students under the 'Announcements' section and page.</p>
+                                    <p class="m-0">Creates a new Activity shown to everyone under the 'Activity' section and page.</p>
+                                </content>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 border-0">
+                    <h2 class="accordion-header" id="flush-2">
+                        <button class="accordion-button collapsed bg-gold text-dark fs-5"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#fos-collapse"
+                                aria-expanded="false"
+                                aria-controls="fos-collapse">For Oslomet Students
+                        </button>
+                    </h2>
+                    <div id="fos-collapse" class="accordion-collapse collapse" aria-labelledby="flush-2">
+                        <div class="text-white">
+                            <div class="p-3 bg-dark-secondary">
+                                <div class="d-lg-flex d-block justify-content-between mb-2">
+                                    <a href="#" class="a-link p-0">
+                                        <div class="mb-2 text-center d-flex align-items-center">
+                                            <span class="bi-plus-circle me-2 fs-5"></span>
+                                            <p class="m-0 fw-bold">New Group</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="a-link p-0">
+                                        <div class="mb-2 text-center d-flex align-items-center">
+                                            <span class="bi-eye me-2 fs-5"></span>
+                                            <p class="m-0 fw-bold">See All</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <content>
+                                    <p class="m-0">Creates a new group of links shown to everyone under the 'For Oslomet Students' section.</p>
                                 </content>
                             </div>
                         </div>

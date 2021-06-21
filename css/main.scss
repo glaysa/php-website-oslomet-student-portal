@@ -269,6 +269,11 @@ input[type="password"].form-control {
       max-height: 200px;
     }
   }
+
+  .news-post-column {
+    max-width: 900px !important;
+    margin: auto;
+  }
 }
 
 /* index > activities section */

@@ -1,6 +1,6 @@
 <section class="container news-section mb-5">
     <div class="row g-0">
-        <p class="display-6 text-white text-center pt-5">News</p>
+        <p class="display-6 text-white text-center pt-5">Latest News</p>
         <hr class="w-100 bg-gold mb-5">
         <div class="col-12 pb-5">
             <div class="text-white d-flex flex-lg-row flex-column">

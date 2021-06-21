@@ -235,6 +235,10 @@ input[type=password].form-control {
 .main-entry .news-img-wrapper .img-placeholder {
   max-height: 200px;
 }
+.main-entry .news-post-column {
+  max-width: 900px !important;
+  margin: auto;
+}
 
 /* index > activities section */
 .date-block {
