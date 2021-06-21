@@ -29,6 +29,7 @@
                     <div class="text-white-50 justify-content-between d-flex flex-lg-row flex-column">
                         <p class="m-lg-0"><span class="bi-map me-2"></span>Location - Oslomet Building 32</p>
                         <p class="m-lg-0"><span class="bi-clock me-2"></span>January 24, 2021 - January 26, 2021</p>
+                        <p class="m-lg-0 text-danger">Ended<span class="ms-2 bi-circle-fill me-2"></span></p>
                     </div>
                 </article>
             </div>
