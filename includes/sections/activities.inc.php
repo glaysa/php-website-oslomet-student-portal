@@ -1,7 +1,7 @@
 <section class="container-fluid bg-gold text-dark">
     <div class="container activities-section pb-5">
         <div class="row g-0">
-            <p class="display-6 text-center pt-5">Activities</p>
+            <p class="display-6 text-center pt-5">Latest Activities</p>
             <hr class="w-100 bg-dark">
             <div class="col-lg-6 col-12 py-5">
                 <div class="d-flex mb-4">
