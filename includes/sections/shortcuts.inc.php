@@ -67,17 +67,8 @@
             </a>
         </div>
 
-        <template id="shortcut-template">
-            <div class="p-2 col-lg-2 col-md-4 col-6 shortcut">
-                <a href="#" class="a-link-block text-decoration-none">
-                    <div class="p-3 bg-gold text-dark text-center">
-                        <span class="bi-link-45deg" style="font-size: 30px"></span>
-                        <p class="m-0"></p></div>
-                </a>
-            </div>
-        </template>
-
         <!-- TODO: Should only be visible to admin and students -->
+
         <div class="p-2 col-lg-2 col-md-4 col-6 order-12">
             <a class="a-link-block-dark text-decoration-none" data-bs-toggle="modal" data-bs-target="#shortcutModal">
                 <div class="p-3 bg-dark-secondary text-gold text-center">
