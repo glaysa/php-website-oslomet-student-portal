@@ -5,7 +5,7 @@
     <section class="container main-entry text-dark">
         <div class="row g-0 p-3 my-5">
             <div class="col">
-                <h1 class="fw-lighter text-dark">Publish a News Article</h1>
+                <h1 class="fw-lighter text-center text-dark">Publish a News Article</h1>
                 <hr class="w-100 bg-dark">
             </div>
             <div class="col-12 pb-5">
@@ -27,13 +27,22 @@
                             </div>
                         </div>
                     </div>
-                    <textarea name="news-body" cols="110" rows="90"></textarea>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <h3 class="fw-lighter mb-3">Excerpt</h3>
+                            <textarea name="activity-excerpt" id="news-excerpt"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <h3 class="fw-lighter mb-3">Body</h3>
+                            <textarea name="activity-body" cols="110" rows="90"></textarea>
+                        </div>
+                    </div>
                     <div class="row g-3">
                         <div class="col-lg-6">
-                            <button type="submit" class="btn btn-outline-secondary my-3 w-100">Draft</button>
+                            <button type="submit" name="news-draft-btn" class="btn btn-outline-secondary mt-3 my-lg-3 w-100">Draft</button>
                         </div>
                         <div class="col-lg-6">
-                            <button type="submit" class="btn btn-success my-3 w-100">Publish</button>
+                            <button type="submit" name="news-submit-btn" class="btn btn-success my-0 my-lg-3 w-100">Publish</button>
                         </div>
                     </div>
                 </form>

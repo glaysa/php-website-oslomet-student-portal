@@ -1,3 +1,16 @@
+
+// Applies to all excerpt text areas
+tinymce.init({
+    selector: '#activity-excerpt',
+    height: 200
+});
+
+tinymce.init({
+    selector: '#news-excerpt',
+    height: 200
+});
+
+// Applies to all body text areas
 tinymce.init({
     selector: 'textarea',
     plugins: 'print preview paste importcss searchreplace autolink autosave save directionality code visualblocks ' +
