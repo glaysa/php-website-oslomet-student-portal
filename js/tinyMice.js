@@ -10,6 +10,11 @@ tinymce.init({
     height: 200
 });
 
+tinymce.init({
+    selector: '#announce-excerpt',
+    height: 200
+});
+
 // Applies to all body text areas
 tinymce.init({
     selector: 'textarea',
