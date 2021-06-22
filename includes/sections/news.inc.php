@@ -1,4 +1,4 @@
-<section class="container-fluid bg-dark-secondary">
+<section class="container-fluid bg-success">
     <div class="container news-section pb-5 text-white">
         <div class="row g-0">
             <h1 class="fw-lighter text-center text-gold pt-5">Latest News</h1>

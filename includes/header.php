@@ -11,6 +11,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tiny.cloud/1/n7uu2xlovbk42ukemdvqvbvtx67vn0osraril4mx260n8ol2/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <title></title>
 </head>
 

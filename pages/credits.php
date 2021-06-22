@@ -18,8 +18,9 @@
                 <a class="a-link" href="https://www.freepik.com/vectors/calendar">Calendar vector created by pch.vector - www.freepik.com</a>
                 <hr class="w-50">
 
-                <p class="lead">CSS Framework</p>
-                <a class="a-link" href="https://getbootstrap.com/">Bootstrap v5.0</a>
+                <p class="lead">Integrations</p>
+                <a class="a-link" href="https://getbootstrap.com/">CSS Framework - Bootstrap v5.0</a>
+                <a href="https://www.tiny.cloud" class="a-link">WYSIWYG Editor - TinyMice v5.0</a>
                 <hr class="w-50">
 
                 <p class="lead">Icons</p>
