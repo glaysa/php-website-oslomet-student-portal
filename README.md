@@ -4,6 +4,12 @@ I built a responsive PHP website template based on my schools student portal. I 
 the different parts of the website. I intend to work on its backend in the future, implementing
 a login system and CMS functionality.
 
+## Tools
+1. XAMPP
+2. Bootstrap
+3. TinyMice
+4. PHPStorm IDE
+
 ## Screenshots
 ### Desktop
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/56070628/123542246-d8368180-d748-11eb-80c2-a884779ad11e.gif)
