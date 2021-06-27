@@ -4,7 +4,7 @@
 <main class="container-fluid">
     <section class="container main-entry">
         <div class="row g-0 my-5">
-            <div class="news-post-column col pb-5 text-white">
+            <div class="post-column col pb-5 text-white">
                 <article class="px-3">
                     <div class="news-post-header d-flex justify-content-center flex-column">
                         <img src="assets/images/img-placeholder.png" alt="placeholder" class="img-fluid">

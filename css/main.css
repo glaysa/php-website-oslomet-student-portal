@@ -249,14 +249,14 @@ input[type=text]#float-title::placeholder {
   max-width: none;
 }
 .main-entry .news-img-wrapper {
-  min-width: 280px;
+  max-width: 280px;
   display: flex;
   align-items: center;
 }
 .main-entry .news-img-wrapper .img-placeholder {
   max-height: 200px;
 }
-.main-entry .news-post-column {
+.main-entry .post-column {
   max-width: 900px !important;
   margin: auto;
 }

@@ -11,10 +11,7 @@
             </div>
             <div class="col-12 py-5">
                 <div class="p-3 mb-3 bg-dark align-items-stretch">
-                    <h4 class="fw-lighter m-0"><a href="#" class="a-link text-gold">Software Engineering</a></h4>
-                </div>
-                <div class="p-3 mb-3 bg-dark align-items-stretch">
-                    <h4 class="fw-lighter m-0"><a href="#" class="a-link text-gold">Information Technology</a></h4>
+                    <h4 class="fw-lighter m-0"><a href="posts/postMajor.php" class="a-link text-gold">Information Technology</a>(see how major post looks like)</h4>
                 </div>
                 <div class="p-3 mb-3 bg-dark align-items-stretch">
                     <h4 class="fw-lighter m-0"><a href="#" class="a-link text-gold">Applied Computer</a></h4>

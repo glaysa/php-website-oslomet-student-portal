@@ -11,9 +11,9 @@
                     </div>
 
                     <div class="px-3 flex-grow-1">
-                        <h3 class="fw-lighter"><a href="#" class="a-link-dark text-dark">Activity 1</a></h3>
+                        <h3 class="fw-lighter"><a href="posts/postActivity.php" class="a-link-dark text-dark">Activity 1</a></h3>
                         <content>
-                            Lorem ipsum dolor sit amet
+                            <b>(see how activity post looks like)</b>
                         </content>
                     </div>
                 </div>

@@ -282,7 +282,7 @@ input[type="text"]#float-title::placeholder {
   }
 
   .news-img-wrapper {
-    min-width: 280px;
+    max-width: 280px;
     display: flex;
     align-items: center;
 
@@ -291,7 +291,7 @@ input[type="text"]#float-title::placeholder {
     }
   }
 
-  .news-post-column {
+  .post-column {
     max-width: 900px !important;
     margin: auto;
   }
