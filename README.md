@@ -10,10 +10,12 @@ a login system and CMS functionality.
 3. TinyMice
 4. PHPStorm IDE
 
+### Notes
+- **Change  `<base>` element at `header.php`, to prevent error on filepaths used in the dom**
+
 ## Screenshots
 ### Desktop
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/56070628/123542246-d8368180-d748-11eb-80c2-a884779ad11e.gif)
 
 ### Mobile
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/56070628/123542334-6d397a80-d749-11eb-9117-285254c2ab3b.gif)
-
